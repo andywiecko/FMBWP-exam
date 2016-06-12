@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.10)  12 JUN 2016 10:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.10)  12 JUN 2016 10:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -857,9 +857,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \listing@line=\count131
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-2016612642.tex)...executed.
+runsystem(touch w18-test-2016612657.tex)...executed.
 
-runsystem(rm -f w18-test-2016612642.tex)...executed.
+runsystem(rm -f w18-test-2016612657.tex)...executed.
 
 Package gnuplottex Info: Automatically converting gnuplot files. on input line 
 109.
@@ -1207,130 +1207,161 @@ Package pdftex.def Info: include/radio.png used on input line 390.
 (pdftex.def)             Requested size: 105.78574pt x 175.76337pt.
 
 [5 <./include/ccd.png> <./include/radio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+<include/wir.png, id=34, 655.44875pt x 354.32375pt>
+File: include/wir.png Graphic file (type png)
+ <use include/wir.png>
+Package pdftex.def Info: include/wir.png used on input line 425.
+(pdftex.def)             Requested size: 158.68263pt x 85.78012pt.
+
+<include/rf.png, id=35, 686.565pt x 356.33125pt>
+File: include/rf.png Graphic file (type png)
+ <use include/rf.png>
+Package pdftex.def Info: include/rf.png used on input line 439.
+(pdftex.def)             Requested size: 158.68263pt x 82.35681pt.
+ [6 <./include/wir.png> <./include/rf.png>]
+<include/zmiennepole.png, id=39, 572.1375pt x 686.565pt>
+File: include/zmiennepole.png Graphic file (type png)
+
+<use include/zmiennepole.png>
+Package pdftex.def Info: include/zmiennepole.png used on input line 450.
+(pdftex.def)             Requested size: 158.68263pt x 190.41403pt.
+
+<include/wyciek.png, id=40, 665.48625pt x 225.84375pt>
+File: include/wyciek.png Graphic file (type png)
+
+<use include/wyciek.png>
+Package pdftex.def Info: include/wyciek.png used on input line 464.
+(pdftex.def)             Requested size: 264.46837pt x 89.7535pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
-
-Overfull \hbox (32.27237pt too wide) in paragraph at lines 506--507
+[7 <./include/zmiennepole.png> <./include/wyciek.png>]
+Overfull \hbox (32.27237pt too wide) in paragraph at lines 579--580
  [][] 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 474--517
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 547--590
 $[]$ $[]$ 
  []
 
-[6] [7] <include/absorpcja.png, id=43, 770.88pt x 225.84375pt>
+[8] <include/absorpcja.png, id=49, 770.88pt x 225.84375pt>
 File: include/absorpcja.png Graphic file (type png)
 
 <use include/absorpcja.png>
-Package pdftex.def Info: include/absorpcja.png used on input line 582.
+Package pdftex.def Info: include/absorpcja.png used on input line 655.
 (pdftex.def)             Requested size: 385.43906pt x 112.92159pt.
 
-<include/emisja.png, id=45, 759.83875pt x 99.37125pt>
+<include/emisja.png, id=51, 759.83875pt x 99.37125pt>
 File: include/emisja.png Graphic file (type png)
  <use include/emisja.png>
-Package pdftex.def Info: include/emisja.png used on input line 590.
+Package pdftex.def Info: include/emisja.png used on input line 663.
 (pdftex.def)             Requested size: 379.91844pt x 49.6855pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
-
- []
-
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <9> on input line 608.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 608.
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--620
-
- []
-
-[8 <./include/absorpcja.png> <./include/emisja.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
-
- []
-
-<include/oddzialywanie.png, id=53, 889.3225pt x 635.37375pt>
-File: include/oddzialywanie.png Graphic file (type png)
-
-<use include/oddzialywanie.png>
-Package pdftex.def Info: include/oddzialywanie.png used on input line 637.
-(pdftex.def)             Requested size: 266.7988pt x 190.61359pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9] <include/tem.png, id=57, 1185.42876pt x 1303.87125pt>
-File: include/tem.png Graphic file (type png)
+[9 <./include/absorpcja.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
 
-<use include/tem.png>
-Package pdftex.def Info: include/tem.png used on input line 644.
+ []
+
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <9> on input line 681.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 681.
+
+Underfull \hbox (badness 10000) in paragraph at lines 691--693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
+
+ []
+
+[10 <./include/emisja.png>]
+<include/oddzialywanie.png, id=63, 889.3225pt x 635.37375pt>
+File: include/oddzialywanie.png Graphic file (type png)
+
+<use include/oddzialywanie.png>
+Package pdftex.def Info: include/oddzialywanie.png used on input line 710.
+(pdftex.def)             Requested size: 266.7988pt x 190.61359pt.
+ [11 <./include/oddzialywanie.png>]
+<include/tem.png, id=68, 1185.42876pt x 1303.87125pt>
+File: include/tem.png Graphic file (type png)
+ <use include/tem.png>
+Package pdftex.def Info: include/tem.png used on input line 717.
 (pdftex.def)             Requested size: 296.35646pt x 325.96701pt.
- <include/gruszka.png, id=58, 789.95125pt x 395.4775pt>
+
+<include/gruszka.png, id=69, 789.95125pt x 395.4775pt>
 File: include/gruszka.png Graphic file (type png)
 
 <use include/gruszka.png>
-Package pdftex.def Info: include/gruszka.png used on input line 653.
+Package pdftex.def Info: include/gruszka.png used on input line 726.
 (pdftex.def)             Requested size: 315.9749pt x 158.18819pt.
- [10 <./include/oddzialywanie.png> <./include/tem.png>] <include/sem.png, id=64
-, 889.3225pt x 1047.915pt>
+ <include/sem.png, id=70, 889.3225pt x 1047.915pt>
 File: include/sem.png Graphic file (type png)
- <use include/sem.png>
-Package pdftex.def Info: include/sem.png used on input line 660.
+
+<use include/sem.png>
+Package pdftex.def Info: include/sem.png used on input line 733.
 (pdftex.def)             Requested size: 266.7988pt x 314.37692pt.
 
-[11 <./include/gruszka.png> <./include/sem.png>]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 747.
 
-Overfull \hbox (9.00398pt too wide) in paragraph at lines 700--754
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./include/tem.png> <./include/gruszka.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 820.
+
+Overfull \hbox (9.00398pt too wide) in paragraph at lines 773--827
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--754
+Underfull \hbox (badness 10000) in paragraph at lines 773--827
 
  []
 
-[12] [13] [14] (./FMBWP-exam.aux) ) 
+[13 <./include/sem.png>] [14] [15] [16] (./FMBWP-exam.aux) ) 
 Here is how much of TeX's memory you used:
- 25839 strings out of 493304
- 628270 string characters out of 6139871
+ 25859 strings out of 493304
+ 628664 string characters out of 6139871
  870032 words of memory out of 5000000
- 28715 multiletter control sequences out of 15000+600000
+ 28731 multiletter control sequences out of 15000+600000
  13984 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,10n,74p,1071b,713s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvi
-ps/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/pl/plme.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/pl/plmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plm
-i7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi9.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/pl/plr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/pl/plr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/pl/plsy6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/pl/plsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/pl/plsy9.pfb>
-Output written on FMBWP-exam.pdf (14 pages, 1495134 bytes).
+{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/pl/plbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/pl/plmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/pl/plmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/pl/plr7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/pl/plr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
+l/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/pl/plsy9.pfb>
+Output written on FMBWP-exam.pdf (16 pages, 2169972 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
