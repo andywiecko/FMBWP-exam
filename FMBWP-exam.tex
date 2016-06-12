@@ -292,6 +292,115 @@ Ponownie sposób badania materiału ferromagnetycznego. W urządzeniu znajduje s
 {\Large \bf  \item Scharakteryzuj nieniszczące metody badań oparte o zastosowanie promieniowania
 jonizującego.} [Kamil W.]
 
+Promieniowanie jonizujące – promieniowanie unoszące dość energii, by zjonizować ośrodek, tj. oderwać elektron od atomu ośrodka lub wybić go se struktury krystalicznej.
+
+Rodzaje promieniowania jonizującego:
+\begin{itemize}
+\item $\alpha$ (jądra helu) [nie słyszałem, by było stosowane w pomiarach w przemyśle]
+
+\item $\beta$ (elektrony/pozytony) [także nie słyszałem...]
+
+\item $\gamma$ (promieniowanie elektromagnetyczne - fotony powyżej 100 keV – umowna granica) [wykorzystywane w pomiarach w przemyśle]
+
+\item X (promieniowanie elektromagnetyczne, rentgenowskie, fotony o energiach między 10 keV - 100 KeV – granice umowne) [wykorzystywane w pomiarach w przemyśle]
+
+\item neutrony [wykorzystywane w pomiarach w przemyśle]
+
+\item protony [używane raczej w celach medycznych, nie w pomiarach przemysłowych]
+\end{itemize}
+
+Promieniowanie jonizujące możemy podzielić na jonizujące pośrednio i bezpośrednio:
+\begin{itemize}
+\item bezpośrednio ($\alpha$, $\beta$, protony) – cząstki składające się na promieniowanie same posiadają ładunek i jonizują głównie poprzez oddziaływania coulombowskie.
+\item Pośrednio (neutrony, $\gamma$, X) – cząstki składające się na promieniowanie nie posiadają ładunku, jonizują przez różne zjawiska prowadzące do jonizacji:
+\begin{itemize}
+\item efekt Comptona ($\gamma$)
+\item efekt fotoelektryczny (X)
+\item kreacja par elektron-pozyton ($\gamma$)
+\item aktywacja neutronowa (neutrony) – jądra atomowe przechwytują neutron i wtedy:
+znajdują się w stanie wzbudzonym i relaksując (przechodząc do stanu podstawowego) emitują kwant  $\gamma$ – promieniowanie jonizujące
+stają się innym izotopem, często promieniotwórczym, który rozpadając się emituje oczywiście promieniowanie jonizujące
+
+\end{itemize}
+\end{itemize}
+Promieniowanie absorbowane jest przez materiał zgodnie z zależnością:
+
+$$I(d) = I_0e^{-\mu d}$$
+$I$ – natężenie wiązki po przejściu przez materiał o grubości $d$,
+$d$ – grubość materiału, przez który przechodzi wiązka,
+$I_0$ – początkowe natężenie wiązki (przed przejściem przez badany materiał),
+$\mu$ – współczynnik pochłaniania (zależny od materiału, dla danego materiału różny dla różnych rodzajów promieniowania oczywiście).
+
+Przenikliwość promieniowania:
+\begin{itemize}
+\item $\alpha$ – bardzo mało przenikliwe – już kartka papieru zatrzymuje 
+
+
+\item $\beta$ – słabo przenikliwe – przeniknie dłoń, niezbyt grubą warstwę wody, zostanie całkowicie zatrzymana jednak przez cienką warstwę metalu, np. folię aluminiową
+\item X – przenikliwe, dość mocno pochłaniane przez metale, słabo przez wodę, szkło...
+\item $\gamma$ – silnie przenikliwe, przenika ołów, beton też trochę – trzeba grubej warstwy ołowiu i betonu by je wytłumić
+\item neutrony – najbardziej przenikliwe z wymienionych, słabo tłumi je woda, słabo ołów, jako osłonę wykorzystuje się grube bloki betonu
+
+\end{itemize}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.3\textwidth]{wiazka}
+\end{figure}
+
+
+{\bf Na czym ogólnie polegają metody badań wykorzystujące promieniowanie jonizujące?}
+
+Na robieniu zdjęcia/obrazu na kliszy/matrycy CCD. Klisza co to jest każdy wie, matryca CCD to to samo co jest w aparacie cyfrowym.
+
+Jeśli materiał prześwietlamy wiązką promieniowania, niejednorodności jak np. bąbel powietrza, albo wytrącenie ołowiu w stopie metalu powodują inną absorpcję promieniowania i na kliszy/matrycy otrzymamy różnicę zaciemnienia.
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.4\textwidth]{ccd}
+\end{figure}
+
+W badaniach nieniszczących wykorzystuje się promieniowanie jonizujące:
+\begin{itemize}
+\item radiografia cyfrowa (DR) – zamiast kliszy korzysta z matrycy CCD (Charge Coupled Device) lub matrycy CMOS (Complementary Metal-Oxide-Semiconductor). Obraz dostępny praktycznie od razu. Dobra rozdzielczość.
+
+\item tomografia komputerowa (CT) – jak DR, ALE porównywane jest wiele obrazów z różnych kierunków, a komputer na tej podstawie tworzy obraz 3D. Zalety:
+\begin{itemize}
+\item możliwość badania materiałów o różnych właściwościach
+\item dobra wykrywalność wad stanowiących ubytek grubości badanego obiektu do około 5\%
+\item trwały wynik badania w postaci radiogramu (??? tak jest w wykładzie Wrzalika napisane.. że niby zaletą pomiaru jest to, że mamy wynik – zdjęcie? Wow, ale zaleta, że pomiar daje wynik...)
+\item obrazy 3D
+\end{itemize}
+Wady:
+\begin{itemize}
+\item wysokie koszty aparatury, badań
+\item ograniczona wykrywalność wad w elementach grubościennych o skomplikowanych rozmiarach
+\item brak wykrywalności płaskich wad równoległych do powierzchni
+\item wysokie reżimy bezpieczeństwa – BHP na 100\%
+\end{itemize}
+radiografia neutronowa (NR) – jak DR, tylko z neutronami – bardziej przenikliwa wiązka. Wykorzystuje powolne neutrony (tzw. termiczne). Są one pochłaniane przez wodę, ze względu na sporą ilość wodoru. Obraz uzyskuje się nie bezpośrednio z matrycy, lecz z kliszy fluorescencyjnej. Kamera obserwuje kliszę. Też BHP na 100\%
+
+\end{itemize}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.2\textwidth]{radio}
+\end{figure}
+
+
+Ponadto są badania nieniszczące, ale wymagające pobrania próbki:
+\begin{itemize}
+\item spektroskopia rentgenowska – wykorzystuje promieniowanie X
+\item spektroskopia gamma – wykorzystuje promieniowanie  $\gamma$
+\end{itemize}
+
+Badają one absorpcję promieniowania przez próbkę i na tej pozwalają zbadać ilościowo i jakościowo skład próbki – określić pierwiastki, jakie w niej występują oraz ich ilość. (wiadomix, było na labach z Duberem)
+
+
+
 {\Large \bf  \item Jakie znasz metody nieniszczących badań materiałowych oparte o zastosowanie
 pól elektromagnetycznych?} [Zbigniew G.]
 
@@ -673,6 +782,98 @@ XIII Generalna Konferencja Miar w październiku 1967 r. wprowadziła nową nazw�
 
 {\Large \bf  \item Z jakimi metodami fizycznymi zapoznałeś się przy badaniu materiałów węglowo-
 grafitowych (SGL-Racibórz)} [Kamil W.]
+
+
+
+Najpierw laboratorium otrzymuje próbkę antracytu. Przygotowuje się ją do badań mikroskopem optycznym: zalewa żywicą, rozcina, poleruje. Ale mikroskop nie jest transmisyjny, tylko odbiciowy. Ponadto wykorzystuje się polaryzatory.Mamy więc {\bf mikroskopię optyczną}, tylko taką ciekawszą: odbiciową ze spolaryzowanym światłem. Widać m.in. anizotropowość antracytu.
+
+Kiedy antracyt zostanie dobrze zarekomendowany, produkuje się próbkę, potem produkcja pilotażowa, a na końcu normalna produkcja dalsze metody dotyczą produkcji.
+
+Porowatość próbki mierzy się porozymetrem. Mamy więc {\bf porozymetrię} rtęciową i helową  – polega na pomiarze objętości rtęci/helu, jaka wypełnia pory, w zależności od ciśnienia.
+Porowatość definiuje się jako:
+
+
+
+$$P = \frac{V_p}{V_p+V_s}$$
+
+
+
+gdzie $V_p$ to objętość porów, a $V_s$ to objętość materiału stałego. UWAGA: metoda nie mierzy porów zamkniętych tylko otwarte – „wychodzące na powierzchnię”.
+
+W przypadki porozymetrii rtęciowej: ciśnienie, by rtęć wniknęła w pory musi być większe niż ciśnienie par w porach. Ponadto rtęć nie zwilża materiałów węglowych – tworzy się menisk wypukły. Głębokość wnikania w pory zależy (ze względu na menisk) od ciśnienia i szerokości poru. 
+By zminimalizować ciśnienie par w porach, co umożliwi głębszą ich penetrację, próbkę na początku się odgazowuje – umieszcza w zbiorniku gdzie panuje podciśnienie – powietrze odpompowuje się pompą próżniową. Następnie zalewa rtęcią i przeprowadza pomiar.
+
+W przypadku porozymetrii gazowej wykorzystuje się zazwyczaj hel. Bardzo dobrze wnika on w pory. Można określić objętość porów na podstawie dokładnego pomiaru zmiany ciśnienia w stosunku do ilości wprowadzonego gazu.
+
+
+
+{\bf Pomiar oporności elektrycznej z wykorzystaniem prawa Ohma} – mierzy się napięcie na elektrodzie węglowej przez którą płynie znany prąd. Trywialne.
+
+{\bf Pomiar wytrzymałości mechanicznej}  – niszczący pomiar wytrzymałości na zgniatanie i łamanie
+
+{\bf Pomiar modułu Younga metodą rezonansu akustycznego} – pomiar akustyczny, bazujący na prędkości rozchodzenia się fali akustycznej. Z jednej strony próbki o kształcie cylindrycznym przykłada się generator fali akustycznej, a z drugiej detektor (rodzaj mikrofonu). Pomiar był zautomatyzowany: komputer od pewnej założonej wysokości dźwięku zwiększał tę wysokość (częstotliwość) aż do uzyskania strzałki fali stojącej na drugim końcu pręta. Oznaczało to, że w znanej długości próbki „mieści się” całkowita wielokrotność długości fali (dokładnie ile zależy od
+go jak był skalibrowany przyrząd, czy szukał rezonansu podstawowego czy wyższego rzędu). Znając ilość długości fali mieszczącej się w długości próbki, długość próbki i częstotliwość dźwięku, można określić prędkość fali $v$:
+
+$$v=\lambda f=\frac{lf}{n}$$
+
+
+gdzie $\lambda$ oznacza długość fali dźwiękowej, $f$ – częstotliwość dźwięku, $l$ – długość próbki, $n$ – ilość długości fali mieszczącej się w próbce. Można już wyznaczyć moduł Younga $E$ dzięki zależności:
+
+$$v=\sqrt{\frac{E}{\rho}}\rightarrow E=v^2\rho$$
+
+gdzie $\rho$ oznacza gęstość próbki.
+
+{\bf Detekcja ubytków wewnętrznych za pomocą ultrasonografii} – jak sama nazwa „ultrasonografia” mówi, wykorzystuje się ultradźwięki. Badany typ wyłożenia wielkopiecowego był akurat anizotropowy, co nam pokazano podczas ultrasonografii – inna była prędkość dźwięku w jednym, a inna w drugim kierunku.
+
+Metoda polega na przyłożeniu z dwóch stron materiału głowic piezoelektrycznych, z czego jedna wytwarza falę akustyczną a druga mierzy ją. Sygnał akustyczny składa się z wielu częstotliwości. Głowica mierząca, „mikrofon”, podłączona jest do oscyloskopu. Pozwala zobaczyć dla jakiej częstotliwości występuje rezonans. Długość warstwy, przez jaką dokonano pomiar, mierzy się zwykłą miarką taśmową. Na tej podstawie można obliczyć prędkość dźwięku (patrz: wyznaczanie modułu Younga). W przypadku wewnętrznych ubytków pojawiają się dodatkowe częstotliwości rezonansowe wskutek odbicia fali akustycznej od defektu. Odchylenie prędkości dźwięku od spodziewanej może świadczyć o niejednorodności materiału, zarówno o ostrych granicach (wówczas powstanie dodatkowa częstotliwość rezonansowa) jak i o granicach rozmytych. 
+
+{\bf Wytrawianie środkami chemicznymi}: próbki poddawano działaniu silnych kwasów i zasad, a po ustalonym czasie określano ich stan powierzchni oraz stopień wytrawienia.
+
+{\bf Pomiar gęstości metodą hydrostatyczną} – pomiar masy przed i po nasyceniu cieczą, następnie zanurzenie w wodzie, pomiar masy w wodzie.
+
+\begin{center}
+[objętość] = [masa w powietrzu] – [masa w wodzie] / [gęstość wody]
+
+[gęstość] = [masa przed nasyceniem cieczą]/[objętość]
+\end{center}
+
+
+{\bf Nieniszczący pomiar przewodnictwa cieplnego} – metoda nie posiada własnej nazwy – została opracowana na potrzeby SGL Racibórz przez zespół z Politechniki Śląskiej:
+
+1. izoluje się badany przedmiot od otoczenia osłoną nieprzepuszczającą światła
+
+2. przez określony czas świeci świeci się laserem na próbkę
+
+3. kamera termowizyjna obserwuje obraz – okrężnie (w przybliżeniu ;) ) rozchodzące się linie jednakowej temperatury, wokół naświetlanego punktu
+
+4. na podstawie szerokości tych okręgów wyznaczających jednakową temperaturę po odpowiednim czasie od chwili naświetlania komputer określa
+ przewodnictwo cieplne
+ 
+5. Pomiar dokonuje się w kilku punktach
+
+
+{\bf Podsumowanie:}
+\begin{itemize}
+\item
+
+
+badanie modułu Younga metodą rezonansu akustycznego
+\item (niszczące) badanie wytrzymałości mechanicznej – łamanie próbki
+\item porozymetria (rtęciowa, helowa)
+\item Mikroskopia optyczna z wykorzystaniem mikroskopu optycznego i polaryzacji
+\item (niszczące) wytrawianie środkami chemicznymi
+\item ultrasonografia
+\item pomiar objętości metodą hydrostatyczną
+\item pomiar oporu elektrycznego z wykorzystaniem prawa Ohma
+\item pomiar przenikalności cieplnej
+\end{itemize}
+
+
+
+
+
+
+
 \end{enumerate}
 
 
